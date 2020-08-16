@@ -31,6 +31,30 @@ div.cont img {
     width: 30%;
 }
 
+div.icons {
+    position: relative;
+    margin: 0 auto;
+    left: -5px;
+}
+
+div.icons a {
+        text-decoration: none;
+}
+
+div.icons a:visited a:link {
+    text-decoration: none;
+}
+
+div.icons img {
+    left: 0;
+    margin-top: 30px;
+    padding-left: 10px;
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    float: left;
+}
+
 div.cont {
     width: 800px;
     margin: 0 auto;
